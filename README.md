@@ -1,189 +1,128 @@
-# Awesome-Airline-Revenue-Management
+# ✈️ Awesome Airline Revenue Management
 
-## Top Airline Revenue Management Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Airline Revenue Management Banner" width="100%"/>
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Airline-Revenue-Management/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Airline-Revenue-Management?style=social&color=white" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Airline-Revenue-Management/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Airline-Revenue-Management?style=social&color=white" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Airline-Revenue-Management/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+## 📊 Top Airline Revenue Management Ecosystem & Software Guide
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+**A Curated Directory of Enterprise SaaS Platforms & Open-Source GitHub Projects for Airline Revenue Optimization**  
 
-*Focused on Yield Management, Dynamic Pricing, Inventory Control, Demand Forecasting & O&D Revenue Optimization*  
+*Keywords: Yield Management, Dynamic Pricing, EMSR (Expected Marginal Seat Revenue), Leg & Origin-Destination (O&D) Revenue Optimization, Airline Inventory Control, Ancillary Revenue, Demand Forecasting, Continuous Pricing, Passenger Service System (PSS) Integration.*
 
-**Last updated: September 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Airline Revenue Management (RM)**. These systems forecast demand, allocate seats by fare class, set dynamic prices, and optimize network revenue—core to airline profitability.
-
-
-
-**Examples** include PROS Revenue Management, Amadeus Revenue Management, Sabre AirVision Revenue Optimizer, Fetcherr, Flyr Labs, AirGain / RateGain, Datalex, and Lufthansa Systems NetLine/ProfitLine (the category leaders).
-
-
-
-**Open-source emphasis**: Production airline RM is almost entirely commercial. Open work is research-oriented—**RMOL**, **Seatwise**-style simulators, and academic optimization notebooks. This section lists every significant relevant project found.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
-- [Open-Source GitHub Projects](#open-source-github-projects)
-
-- [How to Contribute](#how-to-contribute)
-
-- [Disclaimer](#disclaimer)
-
-
-
-## SaaS/Hosted Platforms
-
-
-
-- **[PROS Revenue Management](https://pros.com/)**  
-
-  Leading enterprise RM and dynamic pricing platform used across airlines and other industries.
-
-
-
-- **[Amadeus Revenue Management, Sabre AirVision Revenue Optimizer](https://amadeus.com/)**  
-
-  GDS-linked airline RM suites for inventory control, forecasting, and network optimization.
-
-
-
-- **[Lufthansa Systems NetLine / ProfitLine](https://www.lhsystems.com/)**  
-
-  Airline operations and revenue management solutions from a major airline IT provider.
-
-
-
-- **[Fetcherr, Flyr Labs, RateGain AirGain, Datalex](https://www.fetcherr.com/)**  
-
-  Modern AI-driven pricing and revenue platforms focused on continuous pricing and ancillary optimization.
-
-
-
-- **[Other commercial airline RM platforms](https://pros.com/)**  
-
-  Additional inventory and pricing systems integrated with PSS and offer management.
-
-
-
-## Open-Source GitHub Projects
-
-
-
-- **[RMOL (Revenue Management Open Library)](https://github.com/airsim/rmol)**  
-
-  Open C++ simulation library for airline revenue management—part of the broader Travel Market Simulator / airsim ecosystem.
-
-
-
-- **[stdair, airinv, tvlsim (airsim stack)](https://github.com/airsim)**  
-
-  Open simulation libraries for airline inventory, travel market, and related RM components used in research.
-
-
-
-- **[Seatwise](https://github.com/ahmetgokbulut/seatwise)**  
-
-  Research-grade dynamic airfare RM system—demand forecasting (TFT/XGBoost), sentiment-aware pricing, and Monte-Carlo simulation vs EMSR baselines.
-
-
-
-- **[Academic airline RM / optimization notebooks](https://github.com/Payal3214/Airline-Revenue-Optimization)**  
-
-  Open educational projects covering demand forecasting, fare-class allocation, overbooking, and pricing analysis.
-
-
-
-- **[OR-Tools / custom EMSR & DP implementations](https://github.com/google/or-tools)**  
-
-  General open solvers frequently used to prototype leg-based and network RM heuristics.
-
-
-
-- **[Customer choice model research code](https://github.com/search?q=airline+customer+choice+OR+EMSR+revenue+management)**  
-
-  Academic open implementations of buy-up, diversion, and choice models.
-
-
-
-- **[Fare and schedule data open pipelines](https://github.com/search?q=airline+fare+OR+GDS+data+open+source)**  
-
-  Community tools for working with public or sample schedule/fare datasets in RM experiments.
-
-
-
-- **[Discrete-event booking simulators](https://github.com/search?q=airline+booking+simulation+OR+yield+management+simulation)**  
-
-  Open simulators for testing pricing policies under stochastic demand.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Simulation research**: RMOL and airsim libraries for classical RM experiments.
-
-- **ML pricing research**: Seatwise-style forecasting + simulation stacks.
-
-- **Optimization building blocks**: OR-Tools for custom allocation prototypes.
-
-- Commercial RM remains mandatory for live airline inventory and PSS integration.
-
-
-
-**Frameworks for building custom systems**:  
-
-Open **RMOL** / **airsim** and research repos support education and offline experimentation.  
-
-Live airline revenue management requires commercial systems (PROS, Amadeus, Sabre, Lufthansa Systems, Fetcherr, Flyr, etc.) tightly coupled to reservations and inventory.  
-
-Universities and analytics teams use open tools for method development; carriers run certified commercial RM. Fully open production airline RM is not a realistic substitute for vendor platforms.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Airline revenue management affects fares, overbooking, and customer treatment. Pricing and inventory decisions are subject to competition law, consumer protection, and operational constraints. Incorrect models can destroy revenue or harm passengers.
-
-- Open-source projects are for research and learning—not certified production RM. Commercial platforms provide the integration, support, and controls airlines require. Always validate with revenue management professionals.
-
-
+📅 **Last updated: September 2026**
 
 ---
 
+### 💡 Overview & Key Industry Insights
 
+This repository tracks notable **SaaS platforms**, **commercial software suites**, and **open-source repositories** dedicated to **Airline Revenue Management (RM)**. Modern airline RM systems leverage AI/ML demand forecasting, dynamic pricing algorithms, overbooking models, and customer choice models to maximize seat yield and network profitability.
 
-**Made for airline revenue managers, pricing scientists, and aviation analytics teams.**  
+**Leading SaaS platforms** include PROS Revenue Management, Amadeus RM, Sabre AirVision Revenue Optimizer, Fetcherr, FLYR Labs, RateGain AirGain, Datalex, and Lufthansa Systems NetLine/ProfitLine.
 
-Let's support open RM research while recognizing that production airline revenue management depends on proven commercial platforms.
+**Open-source emphasis**: While production airline inventory control requires commercial GDS/PSS integrations, open-source projects provide research-grade algorithms, discrete-event simulation engines (**RMOL**, **stdair**), and academic dynamic pricing frameworks (**Seatwise**, **Google OR-Tools**).
+
+---
+
+## 📑 Table of Contents
+- [💼 SaaS & Enterprise Hosted Platforms](#-saas--enterprise-hosted-platforms)
+- [🔓 Open-Source GitHub Repositories & Libraries](#-open-source-github-repositories--libraries)
+- [🛠️ Key Frameworks for Building Custom RM Systems](#%EF%B8%8F-key-frameworks-for-building-custom-rm-systems)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [📜 Disclaimer](#-disclaimer)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+
+---
+
+## 💼 SaaS & Enterprise Hosted Platforms
+
+The **Airline Revenue Management SaaS market** is estimated at **$12.47 Billion (2025)** and projected to reach **$43.20 Billion by 2034** (CAGR of ~14.8%). The market is **moderately fragmented**, comprising dominant legacy Global Distribution System (GDS) titans (Amadeus, Sabre), specialized enterprise RM software vendors (PROS, Lufthansa Systems), and fast-growing AI-native continuous pricing startups (FLYR, Fetcherr, RateGain).
+
+| SaaS Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limit | Company Size (Valuation / Annual Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| 🏷️ **[Amadeus Revenue Management](https://amadeus.com/)** | GDS-linked airline RM suite for inventory control, forecasting, and network optimization. | Enterprise annual contract starting at ~$100,000/yr (varies by carrier ASM/passenger volume) | No free tier or trial; demo available upon sales consultation | **€6.5B Revenue** (~$7.1B / Public: AMS) |
+| 🚀 **[Sabre AirVision Revenue Optimizer](https://www.sabre.com/)** | Real-time network revenue management and decision-support system. | Enterprise annual license starting at ~$85,000/yr (tiered by flight network capacity) | No free tier or trial; customized interactive demo upon request | **$2.77B Revenue** (~$940M Market Cap: SABR) |
+| 🎯 **[PROS Revenue Management](https://pros.com/)** | AI-powered enterprise RM and dynamic offer optimization platform. | Enterprise annual subscription starting at ~$50,000/yr (scaled by transaction volume) | No free tier or trial; custom proof-of-concept demo on request | **$1.4B Valuation** (~$330.4M Revenue / Private: Thoma Bravo) |
+| ⚡ **[FLYR Labs (Cirrus)](https://flyr.com/)** | AI-native revenue operating system for continuous pricing and forecasting. | Enterprise annual software contract starting at ~$30,000/yr (or ~$700/mo base for regional/hospitality modules) | No free tier; 14-to-30 day customized pilot/sandbox on enterprise agreement | **$800M Valuation** (Over $500M total VC raised) |
+| 🌐 **[Lufthansa Systems (NetLine/ProfitLine)](https://www.lhsystems.com/)** | Integrated airline operations, scheduling, and revenue optimization suite. | Enterprise modular software licensing starting at ~$40,000/yr | No free tier or trial; guided product demonstration for airlines | **~$600M Revenue** (Wholly-owned subsidiary of Lufthansa Group) |
+| 📊 **[RateGain (AirGain)](https://rategain.com/)** | Real-time airfare intelligence and competitive price tracking platform. | SaaS subscription starting at ~$1,500/mo (~$18,000/yr depending on route coverage) | 14-day limited feature free trial / sample data test account | **~$117M Revenue** (INR 9,809 Cr Market Cap: RATEGAIN) |
+| 🤖 **[Fetcherr](https://www.fetcherr.com/)** | Generative AI-driven real-time pricing and inventory engine. | Enterprise SaaS model starting at ~$25,000/yr (tiered by seat capacity) | No free tier or trial; tailored live demo available upon request | **~$152M Total Funding** (Series C funded startup) |
+| 🛒 **[Datalex](https://www.datalex.com/)** | Digital retailing and offer/order management for airline revenue optimization. | Enterprise software & transaction fee model starting at ~$20,000/yr | No free tier or trial; enterprise demonstration on request | **$32.8M Revenue** (Delisted to private entity) |
+
+---
+
+## 🔓 Open-Source GitHub Repositories & Libraries
+
+Below is a curated collection of open-source projects, optimization solvers, and simulation environments used by researchers, data scientists, and aviation analysts for airline revenue management and yield optimization.
+
+*Repositories are sorted in descending order by GitHub Star count.*
+
+| Repository / Project | Stars Badge | Description | Primary Tech Stack |
+| :--- | :---: | :--- | :--- |
+| 🧮 **[Google OR-Tools](https://github.com/google/or-tools)** | [<img src="https://img.shields.io/github/stars/google/or-tools?style=social&color=white" alt="google/or-tools Stars"/>](https://github.com/google/or-tools/stargazers) | General-purpose optimization solver suite frequently used to implement custom EMSR, leg-based allocation, and network LP models. | C++, Python, Java, C# |
+| 📐 **[SDDmiP](https://github.com/akulbansal5/SDDmiP)** | [<img src="https://img.shields.io/github/stars/akulbansal5/SDDmiP?style=social&color=white" alt="akulbansal5/SDDmiP Stars"/>](https://github.com/akulbansal5/SDDmiP/stargazers) | Multistage stochastic mixed-integer programming solver package featuring a dedicated benchmark implementation for Airline Revenue Management (ARM). | Julia, C++ |
+| 🔬 **[RMOL (Revenue Management Open Library)](https://github.com/airsim/rmol)** | [<img src="https://img.shields.io/github/stars/airsim/rmol?style=social&color=white" alt="airsim/rmol Stars"/>](https://github.com/airsim/rmol/stargazers) | C++ simulation library for airline yield management—part of the Travel Market Simulator (`airsim`) research stack. | C++, CMake |
+| 🛠️ **[stdair](https://github.com/airsim/stdair)** | [<img src="https://img.shields.io/github/stars/airsim/stdair?style=social&color=white" alt="airsim/stdair Stars"/>](https://github.com/airsim/stdair/stargazers) | Standard C++ library providing baseline structures for airline scheduling, inventory management, and revenue analytics. | C++ |
+| ✈️ **[tvlsim](https://github.com/airsim/tvlsim)** | [<img src="https://img.shields.io/github/stars/airsim/tvlsim?style=social&color=white" alt="airsim/tvlsim Stars"/>](https://github.com/airsim/tvlsim/stargazers) | Travel Market Simulator library simulating passenger booking behavior, demand arrival processes, and fare queries. | C++ |
+| 📦 **[airinv](https://github.com/airsim/airinv)** | [<img src="https://img.shields.io/github/stars/airsim/airinv?style=social&color=white" alt="airsim/airinv Stars"/>](https://github.com/airsim/airinv/stargazers) | Airline inventory management simulator library for leg-level bucket control and fare class availability queries. | C++ |
+| 💡 **[Seatwise RM System](https://github.com/ahmetgokbulut/seatwise)** | [<img src="https://img.shields.io/github/stars/ahmetgokbulut/seatwise?style=social&color=white" alt="ahmetgokbulut/seatwise Stars"/>](https://github.com/ahmetgokbulut/seatwise/stargazers) | Dynamic airfare RM system combining TFT/XGBoost demand forecasting, sentiment pricing, and Monte-Carlo simulation vs EMSR-b. | Python, PyTorch |
+| 🎮 **[rm-game Simulator](https://github.com/nickpaa/rm-game)** | [<img src="https://img.shields.io/github/stars/nickpaa/rm-game?style=social&color=white" alt="nickpaa/rm-game Stars"/>](https://github.com/nickpaa/rm-game/stargazers) | Interactive simulation game for educational hands-on training in airline capacity allocation and pricing policies. | JavaScript, HTML5 |
+| 📓 **[Airline Revenue Optimization Notebooks](https://github.com/Payal3214/Airline-Revenue-Optimization)** | [<img src="https://img.shields.io/github/stars/Payal3214/Airline-Revenue-Optimization?style=social&color=white" alt="Payal3214/Airline-Revenue-Optimization Stars"/>](https://github.com/Payal3214/Airline-Revenue-Optimization/stargazers) | Educational notebooks implementing EMSR-a, EMSR-b, overbooking controls, and demand forecasting algorithms. | Python, Jupyter |
+| 🌿 **[Airline Environmental Revenue Project](https://github.com/s-zubair-sy/airline-environmental-revenue-project)** | [<img src="https://img.shields.io/github/stars/s-zubair-sy/airline-environmental-revenue-project?style=social&color=white" alt="s-zubair-sy/airline-environmental-revenue-project Stars"/>](https://github.com/s-zubair-sy/airline-environmental-revenue-project/stargazers) | Data science analysis evaluating the impact of revenue management efficiency on passenger load factors and CO₂ emissions. | R, Python |
+
+---
+
+## 🛠️ Key Frameworks for Building Custom RM Systems
+
+- **Discrete-Event Simulation**: Utilize the `airsim` C++ stack (`rmol`, `stdair`, `tvlsim`, `airinv`) for classical booking horizon simulations.
+- **Machine Learning & Dynamic Pricing**: Combine forecasting tools (XGBoost, Temporal Fusion Transformers) with customer choice models (Multinomial Logit / MNL).
+- **Network & Leg Optimization**: Prototype EMSR-a, EMSR-b, and Deterministic Linear Program (DLP) bid-price controls using Google OR-Tools or Julia JuMP.
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are highly appreciated! To submit a new SaaS platform or open-source repository:
+
+1. 🍴 **Fork** this repository.
+2. 📝 **Add/Update** entries in `README.md` following the tabular format.
+3. 🔎 Ensure all links, descriptions, and factual pricing/funding data are accurate.
+4. 🔀 **Submit a Pull Request (PR)** with a clear title and summary.
+
+Please ⭐ star this repository if you find it helpful!
+
+---
+
+## 📜 Disclaimer
+
+- This is a **community-curated** educational guide and directory.
+- Live production airline revenue management requires certified enterprise PSS/reservation integrations. Open-source libraries are intended for research, educational prototyping, and offline simulation.
+- Pricing, valuations, and feature sets are gathered from public corporate disclosures and industry reports.
+
+---
+
+## 💖 Support & Sponsorship
+
+If you find this repository valuable for your aviation analytics, revenue science research, or industry benchmarking, please consider supporting the project!
+
+- ⭐ **Star** this repository to show your appreciation!
+- 🔀 **Fork** and share it with your network and colleagues.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance via [GitHub Sponsors](https://github.com/sponsors/ishandutta2007).
+
+Thank you for supporting open aviation and revenue management research! 🙌
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Airline-Revenue-Management&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Airline-Revenue-Management&type=date&legend=top-left)
