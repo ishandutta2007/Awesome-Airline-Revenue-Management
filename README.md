@@ -65,7 +65,7 @@ The **Airline Revenue Management SaaS market** is estimated at **$12.47 Billion 
 
 Below is a curated collection of open-source projects, optimization solvers, and simulation environments used by researchers, data scientists, and aviation analysts for airline revenue management and yield optimization.
 
-*Repositories are sorted in descending order by GitHub Stars_Count.*
+*Repositories are sorted in descending order by GitHub_Stars_Count.*
 
 | Repository / Project | Stars_Badge | Description | Primary Tech Stack |
 | :--- | :---: | :--- | :--- |
