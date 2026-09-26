@@ -65,9 +65,9 @@ The **Airline Revenue Management SaaS market** is estimated at **$12.47 Billion 
 
 Below is a curated collection of open-source projects, optimization solvers, and simulation environments used by researchers, data scientists, and aviation analysts for airline revenue management and yield optimization.
 
-*Repositories are sorted in descending order by GitHub Star count.*
+*Repositories are sorted in descending order by GitHub Stars_Count.*
 
-| Repository / Project | Stars Badge | Description | Primary Tech Stack |
+| Repository / Project | Stars_Badge | Description | Primary Tech Stack |
 | :--- | :---: | :--- | :--- |
 | 🧮 **[Google OR-Tools](https://github.com/google/or-tools)** | [<img src="https://img.shields.io/github/stars/google/or-tools?style=social&color=white" alt="google/or-tools Stars"/>](https://github.com/google/or-tools/stargazers) | General-purpose optimization solver suite frequently used to implement custom EMSR, leg-based allocation, and network LP models. | C++, Python, Java, C# |
 | 📐 **[SDDmiP](https://github.com/akulbansal5/SDDmiP)** | [<img src="https://img.shields.io/github/stars/akulbansal5/SDDmiP?style=social&color=white" alt="akulbansal5/SDDmiP Stars"/>](https://github.com/akulbansal5/SDDmiP/stargazers) | Multistage stochastic mixed-integer programming solver package featuring a dedicated benchmark implementation for Airline Revenue Management (ARM). | Julia, C++ |
